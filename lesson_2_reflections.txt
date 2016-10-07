@@ -9,4 +9,28 @@ What value do you think it offers?
 	a single commit, working directory is all current files, repository is history
 	of all commits
 
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Even if you have made multiple changes at one time, they can only be committed
+	if they're added to the staging area first. Therefore, you can only add files 
+	that have a single logical change between them to the staging area and commit them.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If you need a working copy but are experimenting with other solutions to the project. Branches keep the two from interacting.
+
+How do the diagrams help you visualize the branch structure?
+
+	It helps show the relationships between separate commits and branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	the result is the cumulation of the code changes/commits. TO clearly show the joining of the commits.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	pros: dont have to check the merges every time
+
+	cons: could cause an error in code
+
 
